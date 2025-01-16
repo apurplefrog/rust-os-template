@@ -1,0 +1,10 @@
+[target.thumbv7em-none-eabihf]
+rustflags = [
+]
+
+[build]
+target = "thumbv7em-none-eabihf"
+
+[unstable]
+unstable-options = true
+build-std = ["core", "alloc"]
