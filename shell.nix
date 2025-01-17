@@ -6,6 +6,7 @@ let
   toolchain = pkgs.rust-bin.fromRustupToolchainFile ./toolchain.toml;
   libPkgs = with pkgs; [
       toolchain
+      cargo-bootimage
       clippy
       rust-analyzer
       qemu
