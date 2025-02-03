@@ -1,2 +1,2 @@
-build with `cargo build --release`
-and run with `qemu-system-x86_64 -drive format=raw,file=target/linker/release/bootimage-flora-os.bin`
+build with `cargo bootimage`
+and run with `qemu-system-x86_64 -drive format=raw,file=target/linker/debug/bootimage-flora-os.bin`
